@@ -36,5 +36,17 @@ body {
   border-radius: 5px;
 }
 
+.image-download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-download img {
+  width: 60%;
+  margin-top: 0.5rem;
+}
+
 
 `;
