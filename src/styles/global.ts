@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
 :root {
   --white: #FFF;
-  --background: #F2F3F5;
+  --background: ##121214;
   --gray-line: #DCDDE0;
   --text: #666666;
   --text-highlight: #B3B9FF;
@@ -23,7 +23,17 @@ export default createGlobalStyle`
 }
 
 body {
-  background: var(--background);
+  background: #121214;
+}
+
+.container {
+  background: #202024;
+  margin: 0 auto;
+  padding: 0.5rem;
+  margin-top: 0.9rem;
+  width: 40%;
+  border: 2.5px solid #28293F;
+  border-radius: 5px;
 }
 
 
