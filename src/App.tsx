@@ -14,7 +14,7 @@ function App() {
           <Profile />
 
           <div className="image-download">
-            <img src="https://github.com/borgesjuniior.png" alt="" />
+            <img src="https://github.com/borgesjuniior.png" alt="Profile" />
             <Button>Download</Button>
           </div>
           

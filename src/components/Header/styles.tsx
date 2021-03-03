@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Container = styled.header`
   background: #222222;
@@ -16,7 +17,7 @@ export const Container = styled.header`
   input {
     background: #444444;
     color: #fff;
-    width: 30rem;
+    width: 25rem;
     height: 2.5rem;
     border-radius: 5px; 
 
@@ -28,6 +29,24 @@ export const Container = styled.header`
     
     &:placeholder-shown {
       border: 1px solid #6C39CE;
+    }
+  }
+
+  button {
+    width: 3rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+
+    &:focus {
+      outline-style: none;
+    }
+
+    svg {
+      color: #6C39CE;
+
+      &:hover {
+        color: ${shade(0.2,'#6C39CE')}
+      }
     }
   }
 `
